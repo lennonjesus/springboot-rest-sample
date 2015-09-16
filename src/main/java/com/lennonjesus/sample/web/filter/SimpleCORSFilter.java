@@ -1,4 +1,4 @@
-package com.lennonjesus.sample;
+package com.lennonjesus.sample.web.filter;
 
 import java.io.IOException;
 import javax.servlet.Filter;
