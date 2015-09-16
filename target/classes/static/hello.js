@@ -3,7 +3,7 @@ $(document).ready(function() {
         url: "http://localhost:8080/message"
     }).then(function(data, status, jqxhr) {
         $('.greeting-id').append(data.id);
-        $('.greeting-content').append(data.content);
+        $('.greeting-content').append(data.message);
         console.log(jqxhr);
     });
 });
